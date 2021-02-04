@@ -1,0 +1,99 @@
+body {
+  color: grey;
+  font-family: "Quicksand", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  width: 150px;
+  padding-left: 30px;
+}
+
+.container {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.main-header {
+  font-size: 20px;
+  padding: 30px;
+}
+
+.content {
+  font-size: 14px;
+}
+
+.main-header,
+.content {
+  border: 2px ridge purple;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+#nav-list {
+  border: 2px ridge purple;
+  border-radius: 10px;
+  font-size: 12px;
+  margin-top: 15px;
+  padding-left: 30px;
+}
+
+#nav-list li {
+  display: block;
+  font-size: 12px;
+  padding: 0;
+}
+
+.contact-input {
+  border: 2px ridge purple;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+  width: 300px;
+}
+
+#submit-btn {
+  border: 2px ridge purple;
+  border-radius: 5px;
+  color: purple;
+  padding: 5px;
+  margin: 5px;
+  width: 100px;
+}
+
+/* MEDIA QUERIES */
+
+@media (min-width: 1024px) {
+  .container {
+    color: purple;
+  }
+
+  .main-header {
+    background-color: pink;
+    font-size: 30px;
+  }
+  .content {
+    background-color: pink;
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  #nav-list li {
+    display: inline;
+    font-size: 16px;
+    padding: 20px;
+  }
+
+  img {
+    width: 200px;
+  }
+
+  #nav-list {
+    background-color: pink;
+    font-size: 16px;
+  }
+}
